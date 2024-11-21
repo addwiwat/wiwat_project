@@ -31,7 +31,7 @@ const server = http.createServer((req,res)=>{
         }    
     }else{
         const myhtml=`
-        <h1 style="color:red;">NOT FOUND</h1>`
+        <h1 style="color:red;">NOT FOUND 404</h1>`
         res.writeHead(404)
         res.end(myhtml)
     }
